@@ -1,0 +1,219 @@
+.subBody{
+    width: 1440px;
+    margin: auto;
+    box-shadow: 20px;
+    font-family:"Bell MT";
+    letter-spacing: 1px;
+    background-color: white;
+}
+
+.body{
+    width: 100%;
+}
+.navbar{
+    position: fixed;
+    height: 65px;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    top: 0;
+}
+.logo{
+    background: url(../img/onezone_home.png) no-repeat 50% 50%;
+    background-size: contain;
+    width: 180px;
+    height: 18px;
+    margin-left: -20px;
+    
+}
+.menu{
+    position: absolute;
+    right: 15px;
+}
+.menu a{
+    letter-spacing: 4px;
+    color: cadetblue;
+    font-size: 12px;
+    margin-left: 16px;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: color 0.3s;
+}
+.menu a:hover{
+    color: antiquewhite;
+}
+/*
+.menu a.active{
+    color: darkslateblue;
+}
+*/
+.btn{
+    display: none;
+}
+.btn span{
+    display: block;
+    margin: 4px;
+    width: 30px;
+    height: 2px;
+    background-color: orangered;
+    border-radius: 100%;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+    background-position: center center;
+}
+.header{
+    
+    width: 100%;
+    min-height: 350px;
+    background-size: cover;
+    background-position: center center;
+    
+}
+.social{
+    word-spacing: 10px;
+    font-size: 18px;  
+    position: absolute;
+    bottom: 10px;
+    left: 60px;
+    right: 60px;
+}
+.social a i{
+    color:cadetblue;
+}
+.heading{
+    text-align: center;
+    padding-bottom: 40px;
+    letter-spacing: 10px;
+    font-size: 32px;
+}
+p{
+    font-size: 17px;
+}
+.form-control{
+    
+    letter-spacing: 3px;
+    margin-top: 14px;
+}
+#message{
+    height: 100px;
+}
+.button{
+    margin-top: 18px;
+    width: 120px;
+    height: 35px;
+    background-color: lightblue;
+    border-color: lightblue;
+    letter-spacing: 2px;
+}
+.socialFooter{
+    word-spacing: 10px;
+}
+.socialFooter a i{
+    font-size: 20px;
+    color: lightblue;
+   
+}
+.connect{
+    letter-spacing: 2px;
+    display: block;
+}
+.connect i{
+    font-size: 20px;
+    color: darkslateblue;
+}
+#footer{
+    background-color: orangered;
+    color: lightblue;
+    padding: 30px 20px 20px 20px;
+}
+@media (max-width: 1440px){
+    .subBody{
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    
+    .navbar{
+        width: 1440px;
+        margin: auto;
+    }
+    .body{
+        width: 1440px;
+        margin: auto;
+    }
+    
+}
+@media (max-width: 600px){
+    .navbar{
+        overflow: visible; 
+    }
+    
+    .menu{
+        width: 100%;
+        overflow: hidden;
+        right: 0;
+        top:66px;
+        display: none;
+    }
+    .menu a{
+        display: block;
+        text-align: center;
+        padding: 5px;
+        margin: 0;
+        border-top: 1px solid antiquewhite;
+        border-bottom:1px solid antiquewhite;
+    }
+    .menu a:hover{
+        color: antiquewhite;
+    }
+    .brand h1{
+        font-size: 30px;
+    }
+    .brand p{
+        font-size: 12px;
+    }
+    .heading{
+        font-size: 26px;
+    }
+    .paragraph{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .follow{
+        padding-top: 130px;
+   
+    }
+    .btn{
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 0px;
+        border-radius: 4px;
+        
+    }
+   
+    .show{
+        display: block;
+    }
+    .copyright{
+        text-align: center;
+    }
+    .socialFooter{
+        text-align: center;
+    }
+    
+}
+
+
+
+
+
+
